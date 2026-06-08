@@ -33,9 +33,9 @@ export function HeroSection() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="/soc/dashboard">
+          <Link href="/research/dashboard">
             <Button size="lg" className="px-8 py-6 text-base bg-accent text-accent-foreground hover:bg-accent/90">
-              Launch Enterprise SOC
+              Launch Research Platform
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </Link>
