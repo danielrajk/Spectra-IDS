@@ -33,15 +33,15 @@ export function HeroSection() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="/demo">
+          <Link href="/soc/dashboard">
             <Button size="lg" className="px-8 py-6 text-base bg-accent text-accent-foreground hover:bg-accent/90">
-              Launch Live Demo
+              Launch Enterprise SOC
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </Link>
-          <Link href="/paper">
+          <Link href="/demo">
             <Button size="lg" variant="outline" className="px-8 py-6 text-base border-border hover:bg-secondary">
-              Read the Paper
+              Live Demo
             </Button>
           </Link>
         </div>
